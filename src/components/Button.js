@@ -1,11 +1,6 @@
 import React from "react";
 import "./Button.css";
-import { Link } from "react-router-dom";
 
 export function Button() {
-  return (
-    <Link to="sign-up">
-      <button className="btn">sign Up</button>
-    </Link>
-  );
+  return <button className="btn">기업 서비스</button>;
 }

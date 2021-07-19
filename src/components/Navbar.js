@@ -8,7 +8,6 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
@@ -32,45 +31,55 @@ function Navbar() {
       <Link to="/" className="navbar-logo">
         wanted
       </Link>
-      <div className="menu-icon" onClick={handleClick}>
-        <i className={click ? "fas fa-times" : "fas fa-bars"} />
-      </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li className="nav-item">
-          <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-            Home
-          </Link>
-        </li>
         <li
           className="nav-item"
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
         >
-          <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-            Service <i className="fas fa-caret-down" />
+          <Link to="/wdlist" className="nav-links" onClick={closeMobileMenu}>
+            탐색
           </Link>
           {dropdown && <Dropdown />}
         </li>
         <li className="nav-item">
-          <Link
-            to="/contact-us"
-            className="nav-links"
-            onClick={closeMobileMenu}
-          >
-            Contact Us
+          <Link to="/events" className="nav-links">
+            커리어 성장
           </Link>
         </li>
         <li className="nav-item">
-          <Link
-            to="/sign-up"
-            className="nav-links-mobile"
-            onClick={closeMobileMenu}
-          >
-            Sign Up
+          <Link to="/salary" className="nav-links">
+            직군별 연봉
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/cv" className="nav-links">
+            이력서
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/matchup" className="nav-links">
+            매치업
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/free" className="nav-links">
+            프리랜서
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/ai" className="nav-links">
+            Ai 합격예측
           </Link>
         </li>
       </ul>
-      <Button />
+      <ul className="nav-menu2">
+        <li className="nav-item">
+          <i class="fas fa-search"></i>
+          <i class="far fa-bell"></i>
+        </li>
+        <Button />
+      </ul>
     </nav>
   );
 }
