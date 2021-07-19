@@ -1,4 +1,4 @@
-export const MenuItems = [
+export const MenuItemBusiness = [
   {
     title: "기업영업",
     path: "/marketing",
@@ -31,6 +31,175 @@ export const MenuItems = [
   },
   {
     title: "해외영입",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "더보기",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+];
+
+export const MenuItemMedia = [
+  {
+    title: "콘텐츠 크리에이터",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "PD",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "영상 편집가",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "에디터",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "비디오 제작",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "작가",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "출판 기획자",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "더보기",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+];
+export const MenuItemPersonnel = [
+  {
+    title: "인사담당",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "리크루터",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "조직문화",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "평가,보상",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "헤드헌터",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "HRD",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "HRBP",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "더보기",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+];
+export const MenuItemGame = [
+  {
+    title: "게임 기획자",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "게임 그래픽 디자이너",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "모바일 게임 개발자",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "게임 클라이언트 개발자",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "게임 아티스트",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "유니티 개발자",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "게임 서버 개발자",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "더보기",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+];
+export const MenuItemFinance = [
+  {
+    title: "회계담당",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "재무 담당자",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "IR",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "투자,증권",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "재무 분석가",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "애널리스트",
+    path: "/development",
+    Cname: "dropdown-link",
+  },
+  {
+    title: "내부 통계 담당자",
     path: "/development",
     Cname: "dropdown-link",
   },
