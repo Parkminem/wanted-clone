@@ -73,7 +73,7 @@ export const MenuItemPersonnel = [
     path: "/development",
   },
   {
-    title: "평가,보상",
+    title: "평가·보상",
     path: "/development",
   },
   {
@@ -133,7 +133,7 @@ export const MenuItemFinance = [
     path: "/development",
   },
   {
-    title: "투자,증권",
+    title: "투자·증권",
     path: "/development",
   },
   {
