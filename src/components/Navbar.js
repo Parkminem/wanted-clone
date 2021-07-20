@@ -75,8 +75,8 @@ function Navbar() {
       </ul>
       <ul className="nav-menu2">
         <li className="nav-item">
-          <i class="fas fa-search"></i>
-          <i class="far fa-bell"></i>
+          <i className="fas fa-search"/>
+          <i className="far fa-bell"/>
         </li>
         <Button />
       </ul>
